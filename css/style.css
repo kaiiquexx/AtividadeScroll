@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 30px;
+    position: fixed;
+    transition:  background-color .3s linear;
+}
+
+header .navMenu ul{
+    display: flex;
+    gap: 30px;
+}
+
+main section{
+    height: 100vh;
+}
+
+.style-bkg{
+    background-color: blueviolet;
+}
+
+.style-bkg2{
+    background-color: rgb(197, 131, 255);
+}
+
+.style-bkg3{
+    background-color: rgb(233, 207, 255);
+}
+
+#home{
+    background-color: #d1d356;
+}
+#service{
+    background-color: #a1d356;
+}
+#gallery{
+    background-color: #b1d916;
+}
+#contact{
+    background-color: #c1d396;
+}
+
+.fa-circle-arrow-up{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    scale: 3;
+}
+
+main a{
+    transition: 0.5s linear;
+}
